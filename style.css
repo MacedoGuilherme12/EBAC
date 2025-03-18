@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: #10001f;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #e56b84, #7484ed);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+header p {
+  margin-top: 20px;
+}
+
+/* Main */
+main {
+  background: linear-gradient(135deg, #7484ed, #a9b4f5);
+  flex: 1;
+  padding: 20px;
+}
+/* Footer */
+footer {
+  background: linear-gradient(135deg, #a9b4f5, #e56b84);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container Sobre Mim */
+.container-sobreMim {
+  text-align: center;
+}
+.container-sobreMim h2 {
+  font-size: 32px;
+}
+.container-sobreMim p {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.container-projetos {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
